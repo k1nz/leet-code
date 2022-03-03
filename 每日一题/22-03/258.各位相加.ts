@@ -1,6 +1,6 @@
 // 递归
 function addDigitsRecursion(num: number): number {
-  const arr = num.toString().split('')
+  const arr: string[] = num.toString().split('')
   if (arr.length === 1) return num
   return addDigitsRecursion(
     arr.reduce((prev, curr) => prev + parseInt(curr), 0)
