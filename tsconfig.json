@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "baseUrl": "./",
+    "esModuleInterop": true
+  },
+  "include": [
+    "everyday-practice/**/*"
+  ],
+  "compileOnSave": true
+}
